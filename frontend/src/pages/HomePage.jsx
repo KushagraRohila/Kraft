@@ -49,7 +49,7 @@ export default function HomePage() {
       {/* Features Preview */}
       <section className="py-16 px-3 md:px-6 bg-white/50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Suraksha?</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Why Choose <span className="text-pink-500">Kraft</span>?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {features.map((feature, i) => (
               <motion.div
@@ -78,7 +78,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold mb-4">Emergency Support 24/7</h2>
           <p className="text-lg mb-6">Access toll-free emergency contacts and instant help</p>
           <Link to="/emergency">
-            <Button className="bg-white text-pink-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold">
+            <Button className="hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold">
               Emergency Contacts
             </Button>
           </Link>

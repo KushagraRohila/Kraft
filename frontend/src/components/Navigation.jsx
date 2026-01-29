@@ -15,6 +15,7 @@ export default function Navigation() {
     { path: "/stats", label: "Statistics" },
     { path: "/emergency", label: "Emergency Contacts" },
     { path: "/danger-zone", label: "Safety Guide" },
+    { path: "/report", label: "Report" },
     { path: "/about", label: "About Us" },
   ];
 
@@ -24,7 +25,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="text-2xl font-bold text-pink-600">
-            🛡️ Suraksha
+            🛡️ Kraft
           </Link>
 
           {/* Desktop Navigation */}
