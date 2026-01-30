@@ -26,7 +26,7 @@ export default function AboutUsPage() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
         >
-          <h1 className="text-5xl font-bold mb-4">About Suraksha</h1>
+          <h1 className="text-5xl font-bold mb-4">About Kraft</h1>
           <p className="text-xl text-gray-700">Building a safer world for women, one SOS at a time</p>
         </motion.div>
 
@@ -38,7 +38,7 @@ export default function AboutUsPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Suraksha is dedicated to empowering women with real-time safety solutions. Through our innovative platform,
+            Kraft is dedicated to empowering women with real-time safety solutions. Through our innovative platform,
             we combine AI technology, community support, and emergency response systems to create a protective shield
             around every user. We believe that every woman deserves to feel safe, confident, and supported wherever she goes.
           </p>

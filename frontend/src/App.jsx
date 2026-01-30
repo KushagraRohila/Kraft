@@ -10,6 +10,7 @@ import EmergencyContactsPage from './pages/EmergencyContactsPage'
 import DangerZonePage from './pages/DangerZonePage'
 import AboutUsPage from './pages/AboutUsPage'
 import ProfilePage from './pages/ProfilePage'
+import ReportIncident from "./pages/Report";
 
 function App() {
   const { isAuthenticated } = useAuth()
@@ -33,6 +34,9 @@ function App() {
         <Route path="/danger-zone" element={<DangerZonePage />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/report" element={<ReportIncident />} />
+        
+
       </Routes>
     </Router>
   )
